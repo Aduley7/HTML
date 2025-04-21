@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Student Registration Form </title>
+    </head>
+    <body>
+        <h2> Student Registration Form </h2>
+        <form>
+            <!--Student Registration Form-->
+            <label for="studentName"> FullName: </label>
+            <input type="text" id="studentName" name="studentName" placeholder="Enter your full name" required>
+            <br><br>
+
+            <!--Email Address-->
+            <label for="email"> Email Address: </label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <br><br>
+
+            <!--Username-->
+            <label for="username"> Username</label>
+            <input type="text" id="username" placeholder="Create a username" required>
+            <br><br>
+
+            <!--Password-->
+            <label for="password"> Password: </label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+            <br><br>
+
+            <!--Gender-->
+            <label> Gender: </label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male"> Male </label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female"> Female  </label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other"> Other </label>
+            <br><br>
+
+            <!--Date of Birth-->
+            <label for="dob"> Date of Birth: </label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!--Phone Number-->
+            <label for="phone"> Phone Number: </label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <br><br>
+
+            <!--Address-->
+            <label for="address"> Address: </label>
+            <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address" required> </textarea>
+            <br><br>
+            <!--Engineer Stream Selection-->
+            <label for="stream"> Engineer Stream </label>
+            <select id="stream" name="stream">
+                <option value="CSE"> Computer Science & Engineering </option>
+                <option value="EC"> Electrical Engineering </option>
+                <option value="ME"> Mechanical Engineering </option>
+                <option value="CE"> Civil Engineering </option>
+            </select>
+            <br><br>
+
+            <!--CSE Subject (Checkboxes)-->
+            <label> Preferred Computer Science Engineering Subjects: </label>
+            <br>
+            <input type="checkbox" id="DS" name="CSE Subjects" value="DS">
+            <label for="DS"> Data Structures </label>
+            <br>
+            <input type="checkbox" id="DBMS" name="CSE Subjects" value="DBMS">
+            <label for="DBMS"> Database Management System </label>
+            <br>
+            <input type="checkbox" id="OS" name="CSE Subjects" value="OS">
+            <laberl for="OS"> Operating Systems </laberl>
+            <br>
+            <input type="checkbox" id="java" name="CSE Subjects" value="java">
+            <label for="java"> Object Oriented Programming with Java </label>
+            <br>
+            <input type="checkbox" id="AI" name="CSE Subjects" value="AI">
+            <label for="AI"> Artificial Intelligence </label>
+            <br>
+            <br><br>
+            <button type="submit"> Register </button>
+        </form>
+    </body>
+</html>
